@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Webpage</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+
+    <header>
+        <h1>JavaScript Interactive Elements</h1>
+        <button id="changeTextBtn">Change Text</button>
+    </header>
+
+    <main>
+        <section>
+            <p id="dynamicText">Click the button above to change this text.</p>
+        </section>
+
+        <section>
+            <h2>Form Validation</h2>
+            <form id="userForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+
+        <section>
+            <h2>Toggle Visibility</h2>
+            <button id="toggleButton">Show/Hide Message</button>
+            <p id="toggleMessage">This message can be toggled.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
